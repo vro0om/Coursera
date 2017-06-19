@@ -23,7 +23,7 @@ public class MainTester
         uf.union(16, 15);
         uf.union(8, 15);
         uf.union(4, 15);
-        
+       
         System.out.println(uf.isConnected(2,8));
         System.out.println(uf.isConnected(15,8));
         uf.union(2, 4);
